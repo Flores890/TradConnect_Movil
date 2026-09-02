@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TradConnect</string>
+
+    <string name="txtInicioSecion">Inicio de Secion</string>
+    <string name="intpCorreo">Correo</string>
+    <string name="intpContrasena">Contraseña</string>
+    <string name="btnAcceder">Acceder</string>
+
+</resources>
