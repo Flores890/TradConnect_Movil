@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+   <item
+       android:id="@+id/nav_inicio"
+       android:icon="@android:drawable/ic_menu_compass"
+       android:title="@string/nav_inicio"/>
+
+   <item
+      android:id="@+id/nav_reputacion"
+       android:icon="@android:drawable/star_big_off"
+      android:title="@string/nav_reputacion"/>
+
+    <item
+        android:id="@+id/nav_reclamos"
+        android:icon="@android:drawable/ic_dialog_alert"
+        android:title="@string/nav_reclamos"/>
+
+   <item
+      android:id="@+id/nav_oportunidades"
+       android:icon="@android:drawable/ic_menu_search"
+      android:title="@string/nav_oportunidades"/>
+
+   <item
+      android:id="@+id/nav_perfil"
+       android:icon="@android:drawable/ic_menu_myplaces"
+      android:title="@string/nav_perfil"/>
+
+</menu>

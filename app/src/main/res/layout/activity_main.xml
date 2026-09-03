@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -9,45 +9,5 @@
     android:padding="30dp"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/txt_iniciosecion"
-        android:layout_width="match_parent"
-        android:textAlignment="center"
-        android:textSize="20dp"
-        android:textStyle="bold"
-        android:textColor="@color/coffee"
-        android:layout_height="wrap_content"
-        android:text="@string/txt_iniciosesion"
-         />
 
-
-    <EditText
-        android:id="@+id/edtxt_correo"
-        android:layout_width="match_parent"
-        android:layout_height="48dp"
-        android:ems="10"
-        android:inputType="text"
-        android:layout_marginTop="10dp"
-        android:textColor="@color/gray"
-        android:hint="@string/inp_correo" />
-
-    <EditText
-        android:id="@+id/edtxt_contrasena"
-        android:layout_width="match_parent"
-        android:layout_height="48dp"
-        android:ems="10"
-        android:layout_marginTop="10dp"
-        android:inputType="text"
-        android:textColor="@color/gray"
-        android:text="@string/inp_contrasenia" />
-
-    <Button
-        android:id="@+id/btn_acceder"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textColor="@color/white"
-        android:backgroundTint="@color/coffee"
-        android:text="@string/btn_acceder" />
-
-
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

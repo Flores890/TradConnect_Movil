@@ -6,4 +6,13 @@
     <string name="inp_contrasenia">Contraseña</string>
     <string name="btn_acceder">Acceder</string>
 
+    <!--String de nav_menu-->
+    <string name="nav_inicio">Inicio</string>
+    <string name="nav_reputacion">Reputacion</string>
+    <string name="nav_reclamos">Reclamos</string>
+    <string name="nav_oportunidades">Oportunidades</string>
+    <string name="nav_perfil">Mi Perfil</string>
+
+
+
 </resources>
