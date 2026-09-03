@@ -13,6 +13,11 @@
     <string name="nav_oportunidades">Oportunidades</string>
     <string name="nav_perfil">Mi Perfil</string>
 
+    <!-- Strings de item_cliente-->
+    <string name="txt_nombre">Nombre </string>
+    <string name="txt_direccion">Dirección</string>
+    <string name="txt_fechapedido">Fecha del ultimo pedido</string>
 
-
+    <!--String de fragment Inicio-->
+    <string name="txt_clientesrecientes">Clientes Recientes</string>
 </resources>

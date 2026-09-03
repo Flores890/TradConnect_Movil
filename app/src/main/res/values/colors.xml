@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="coffee">#5d4037</color>
+    <color name="marron_bronce">#8b5a2b</color>
+    <color name="terracota">#9c6644</color>
+    <color name="beige">#E6d7cd</color>
     <color name="olivegreen">#2C6B56</color>
     <color name="white">#FFFFFFFF</color>
     <color name="gray">#546E7A</color>
@@ -10,5 +12,8 @@
     <color name="yellow">#FBC02D</color>
     <color name="green">#4CAF50</color>
 
+
+    <color name="purple_200">#3700B3</color>
+    <color name="teal_700">#03DAC5</color>
 
 </resources>
