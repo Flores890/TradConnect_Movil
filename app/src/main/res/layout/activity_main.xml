@@ -10,36 +10,44 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/txtInicioSecion"
+        android:id="@+id/txt_iniciosecion"
         android:layout_width="match_parent"
         android:textAlignment="center"
         android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/coffee"
         android:layout_height="wrap_content"
-        android:text="@string/txtInicioSecion"
+        android:text="@string/txt_iniciosesion"
          />
 
 
     <EditText
-        android:id="@+id/ediTxtCorreo"
+        android:id="@+id/edtxt_correo"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:ems="10"
         android:inputType="text"
-        android:text="@string/intpCorreo" />
+        android:layout_marginTop="10dp"
+        android:textColor="@color/gray"
+        android:hint="@string/inp_correo" />
 
     <EditText
-        android:id="@+id/ediTxtContrasena"
+        android:id="@+id/edtxt_contrasena"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:ems="10"
+        android:layout_marginTop="10dp"
         android:inputType="text"
-        android:text="@string/intpContrasena" />
+        android:textColor="@color/gray"
+        android:text="@string/inp_contrasenia" />
 
     <Button
-        android:id="@+id/btnAcceder"
+        android:id="@+id/btn_acceder"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/btnAcceder" />
+        android:textColor="@color/white"
+        android:backgroundTint="@color/coffee"
+        android:text="@string/btn_acceder" />
 
 
 </LinearLayout>
