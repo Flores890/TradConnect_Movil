@@ -1,4 +1,5 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
+
     <!-- Base application theme. -->
     <style name="Theme.TradConnect" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
@@ -12,5 +13,26 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+
+
+    </style>
+
+    <!--SplashScreen Theme-->
+    <style name="Theme.LoginApp.Splash"
+        parent="Theme.SplashScreen">
+
+        <item name="windowSplashScreenBackground">
+            @color/terracota
+        </item>
+
+        <item name="windowSplashScreenAnimatedIcon">
+            @mipmap/ic_launcher_round
+        </item>
+
+        <item name="postSplashScreenTheme">
+            @style/Theme.TradConnect
+        </item>
+
+
     </style>
 </resources>

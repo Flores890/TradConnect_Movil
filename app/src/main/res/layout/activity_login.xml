@@ -37,9 +37,11 @@
         android:layout_height="48dp"
         android:ems="10"
         android:layout_marginTop="10dp"
-        android:inputType="text"
+        android:inputType="textPassword"
         android:textColor="@color/gray"
-        android:text="@string/inp_contrasenia" />
+        android:hint="@string/inp_contrasenia"
+
+        />
 
     <Button
         android:id="@+id/btn_acceder"
