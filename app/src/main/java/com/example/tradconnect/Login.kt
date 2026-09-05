@@ -30,7 +30,7 @@ class Login : AppCompatActivity() {
             val mail= correo.text.toString()
             val password= contrasenia.text.toString()
 
-            if (mail == "Arlen23@gmail.com" && password =="262608"){
+            if (mail == "arlen23@gmail.com" && password =="262608"){
                 val ventana = Intent(
                     this, MainActivity::class.java
                 )
